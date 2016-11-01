@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class talk extends AppCompatActivity {
     private Button buttonHome, buttonSchedule;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

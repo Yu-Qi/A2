@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class home extends AppCompatActivity {
-    private Button buttonSchedule, buttonTalk;
+
 
 
     @Override
@@ -18,7 +19,8 @@ public class home extends AppCompatActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
 
-        buttonSchedule = (Button) findViewById(R.id.buttonSchedule);
+
+        Button buttonSchedule = (Button) findViewById(R.id.buttonSchedule);
         buttonSchedule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -29,7 +31,7 @@ public class home extends AppCompatActivity {
             }
         });
 
-        buttonTalk = (Button) findViewById(R.id.buttonTalk);
+        Button buttonTalk = (Button) findViewById(R.id.buttonTalk);
         buttonTalk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

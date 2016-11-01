@@ -3,5 +3,7 @@
     <string name="home">Home</string>
     <string name="schedule">Schedule</string>
     <string name="talk">Talk</string>
+    <string name="edit">edit</string>
+    <string name="Back" />
 
 </resources>

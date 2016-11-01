@@ -20,8 +20,19 @@
         <activity
             android:name=".schedule"
             android:label="Schedule" />
-        <activity android:name=".talk"
-                 android:label="Talk"></activity>
+        <activity
+            android:name=".talk"
+            android:label="Talk" />
+        <activity
+            android:name=".scheduleChose"
+            android:label="Select Type" />
+        <activity
+            android:name=".scheduleRunLevel"
+            android:label="Select Level" />
+        <activity
+            android:name=".scheduleRunDay"
+            android:label="Select Day">
+        </activity>
     </application>
 
 </manifest>
